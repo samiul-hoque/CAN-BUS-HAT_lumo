@@ -7033,7 +7033,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <parts>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="P+2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="U4" library="SparkFun-DigitalIC" deviceset="MCP2510" device="SO" value="MCP2515"/>
+<part name="U4" library="SparkFun-DigitalIC" deviceset="MCP2510" device="SO" override_package3d_urn="urn:adsk.eagle:package:24991556/2" override_package_urn="urn:adsk.eagle:footprint:24991557/1" value="MCP2515"/>
 <part name="U5" library="SparkFun-DigitalIC" deviceset="MCP2551" device="" override_package3d_urn="urn:adsk.eagle:package:24991544/2" override_package_urn="urn:adsk.eagle:footprint:24991547/1"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7054,7 +7054,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="THERMISTOR1206" value=""/>
-<part name="X1" library="SparkFun-Connectors" deviceset="DB9" device="MALE" value="DB9 Plug"/>
+<part name="X1" library="SparkFun-Connectors" deviceset="DB9" device="MALE" override_package3d_urn="urn:adsk.eagle:package:24991629/2" override_package_urn="urn:adsk.eagle:footprint:24991630/1" value="DB9 Plug"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="PTH" value="DNP"/>
 <part name="P+12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -7077,24 +7077,24 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="POWERLED" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" value="RESET"/>
+<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994262/2" override_package_urn="urn:adsk.eagle:footprint:24994263/1" value="RESET"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
-<part name="U6" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device=""/>
+<part name="U6" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" override_package3d_urn="urn:adsk.eagle:package:24991586/2" override_package_urn="urn:adsk.eagle:footprint:24991587/1"/>
 <part name="P+11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="P+13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="RASPBERRYPI-40-PIN-GPIO" device="_PTH_NO_SHROUD" package3d_urn="urn:adsk.eagle:package:38282/1"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="RASPBERRYPI-40-PIN-GPIO" device="_PTH_NO_SHROUD" package3d_urn="urn:adsk.eagle:package:38282/1" override_package3d_urn="urn:adsk.eagle:package:24991851/2" override_package_urn="urn:adsk.eagle:footprint:37950/1"/>
 <part name="VREG1" library="Pololu 5V, 1A Step-Down Voltage Regulator D24V10F5" deviceset="POLOLU5V,1ASTEP-DOWNVOLTAGEREGULATORD24V10F5" device="" package3d_urn="urn:adsk.eagle:package:24973279/2"/>
-<part name="U1" library="eagle_fab" deviceset="VR_REGULATOR_LM1117" device="SOT223"/>
+<part name="U1" library="eagle_fab" deviceset="VR_REGULATOR_LM1117" device="SOT223" override_package3d_urn="urn:adsk.eagle:package:24991593/2" override_package_urn="urn:adsk.eagle:footprint:24991594/1"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U2" library="ESP32-WROVER" deviceset="ESP32-WROVER" device=""/>
-<part name="RST" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" value="RESET"/>
-<part name="BOOT" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" value="RESET"/>
+<part name="U2" library="ESP32-WROVER" deviceset="ESP32-WROVER" device="" override_package3d_urn="urn:adsk.eagle:package:24991847/2" override_package_urn="urn:adsk.eagle:footprint:24991849/1"/>
+<part name="RST" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994249/2" override_package_urn="urn:adsk.eagle:footprint:24994250/1" value="RESET"/>
+<part name="BOOT" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994255/2" override_package_urn="urn:adsk.eagle:footprint:24994256/1" value="RESET"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="10K"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>

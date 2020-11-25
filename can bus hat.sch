@@ -7056,7 +7056,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="THERMISTOR1206" value=""/>
 <part name="X1" library="SparkFun-Connectors" deviceset="DB9" device="MALE" override_package3d_urn="urn:adsk.eagle:package:24991629/2" override_package_urn="urn:adsk.eagle:footprint:24991630/1" value="DB9 Plug"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="PTH" value="DNP"/>
+<part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="PTH" override_package3d_urn="urn:adsk.eagle:package:24994934/2" override_package_urn="urn:adsk.eagle:footprint:24994969/1" value="DNP"/>
 <part name="P+12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
@@ -7077,35 +7077,35 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="POWERLED" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994262/2" override_package_urn="urn:adsk.eagle:footprint:24994263/1" value="RESET"/>
+<part name="CAN_RST" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994262/2" override_package_urn="urn:adsk.eagle:footprint:24994263/1" value="RESET"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
-<part name="U6" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" override_package3d_urn="urn:adsk.eagle:package:24991586/2" override_package_urn="urn:adsk.eagle:footprint:24991587/1"/>
+<part name="74HC4050" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" override_package3d_urn="urn:adsk.eagle:package:24991586/2" override_package_urn="urn:adsk.eagle:footprint:24991587/1"/>
 <part name="P+11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="P+13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="RASPBERRYPI-40-PIN-GPIO" device="_PTH_NO_SHROUD" package3d_urn="urn:adsk.eagle:package:38282/1" override_package3d_urn="urn:adsk.eagle:package:24991851/2" override_package_urn="urn:adsk.eagle:footprint:37950/1"/>
-<part name="VREG1" library="Pololu 5V, 1A Step-Down Voltage Regulator D24V10F5" deviceset="POLOLU5V,1ASTEP-DOWNVOLTAGEREGULATORD24V10F5" device="" package3d_urn="urn:adsk.eagle:package:24973279/2"/>
+<part name="POLULU_D24V10F5" library="Pololu 5V, 1A Step-Down Voltage Regulator D24V10F5" deviceset="POLOLU5V,1ASTEP-DOWNVOLTAGEREGULATORD24V10F5" device="" package3d_urn="urn:adsk.eagle:package:24973279/2"/>
 <part name="U1" library="eagle_fab" deviceset="VR_REGULATOR_LM1117" device="SOT223" override_package3d_urn="urn:adsk.eagle:package:24991593/2" override_package_urn="urn:adsk.eagle:footprint:24991594/1"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U2" library="ESP32-WROVER" deviceset="ESP32-WROVER" device="" override_package3d_urn="urn:adsk.eagle:package:24991847/2" override_package_urn="urn:adsk.eagle:footprint:24991849/1"/>
-<part name="RST" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994249/2" override_package_urn="urn:adsk.eagle:footprint:24994250/1" value="RESET"/>
-<part name="BOOT" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994255/2" override_package_urn="urn:adsk.eagle:footprint:24994256/1" value="RESET"/>
+<part name="ESP32-WROVER" library="ESP32-WROVER" deviceset="ESP32-WROVER" device="" override_package3d_urn="urn:adsk.eagle:package:24991847/2" override_package_urn="urn:adsk.eagle:footprint:24991849/1"/>
+<part name="ESP_RST" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994249/2" override_package_urn="urn:adsk.eagle:footprint:24994250/1" value="RESET"/>
+<part name="ESP_BOOT" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" override_package3d_urn="urn:adsk.eagle:package:24994255/2" override_package_urn="urn:adsk.eagle:footprint:24994256/1" value="RESET"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="10K"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
-<part name="UART" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" override_package3d_urn="urn:adsk.eagle:package:24994786/2" override_package_urn="urn:adsk.eagle:footprint:37678/1"/>
+<part name="UART" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" override_package3d_urn="urn:adsk.eagle:package:24994797/2" override_package_urn="urn:adsk.eagle:footprint:37678/1"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D6" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="ESP_LED"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
-<part name="3.3_EN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="3.3_EN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" override_package3d_urn="urn:adsk.eagle:package:24994798/2" override_package_urn="urn:adsk.eagle:footprint:37654/1"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 </parts>
@@ -7355,7 +7355,7 @@ See table for configurations. </text>
 <attribute name="NAME" x="310.388" y="77.724" size="1.778" layer="95"/>
 <attribute name="VALUE" x="310.388" y="75.565" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="-25.4" y="30.48" smashed="yes">
+<instance part="CAN_RST" gate="G$1" x="-25.4" y="30.48" smashed="yes">
 <attribute name="NAME" x="-27.94" y="33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-27.94" y="27.94" size="1.778" layer="96"/>
 </instance>
@@ -7373,7 +7373,7 @@ See table for configurations. </text>
 <attribute name="NAME" x="145.034" y="42.799" size="1.778" layer="95"/>
 <attribute name="VALUE" x="145.034" y="38.989" size="1.778" layer="96"/>
 </instance>
-<instance part="U6" gate="G$1" x="88.9" y="48.26" smashed="yes">
+<instance part="74HC4050" gate="G$1" x="88.9" y="48.26" smashed="yes">
 <attribute name="NAME" x="81.28" y="58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="35.56" size="1.778" layer="95"/>
 </instance>
@@ -7396,7 +7396,7 @@ See table for configurations. </text>
 <attribute name="NAME" x="213.36" y="137.922" size="1.778" layer="95"/>
 <attribute name="VALUE" x="213.36" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="VREG1" gate="G$1" x="287.02" y="127" smashed="yes">
+<instance part="POLULU_D24V10F5" gate="G$1" x="287.02" y="127" smashed="yes">
 <attribute name="NAME" x="281.94" y="137.16" size="1.778" layer="95"/>
 <attribute name="VALUE" x="304.8" y="137.16" size="1.778" layer="96"/>
 </instance>
@@ -7407,14 +7407,14 @@ See table for configurations. </text>
 <instance part="GND1" gate="1" x="345.44" y="116.84" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="347.98" y="114.3" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="U2" gate="G$1" x="365.76" y="5.08" smashed="yes">
+<instance part="ESP32-WROVER" gate="G$1" x="365.76" y="5.08" smashed="yes">
 <attribute name="NAME" x="264.16" y="38.1" size="2.54" layer="95"/>
 <attribute name="VALUE" x="264.16" y="-30.48" size="2.54" layer="96"/>
 </instance>
-<instance part="RST" gate="G$1" x="220.98" y="40.64" smashed="yes">
+<instance part="ESP_RST" gate="G$1" x="220.98" y="40.64" smashed="yes">
 <attribute name="NAME" x="218.44" y="43.18" size="1.778" layer="95"/>
 </instance>
-<instance part="BOOT" gate="G$1" x="220.98" y="33.02" smashed="yes">
+<instance part="ESP_BOOT" gate="G$1" x="220.98" y="33.02" smashed="yes">
 <attribute name="NAME" x="218.44" y="35.56" size="1.778" layer="95"/>
 </instance>
 <instance part="GND7" gate="1" x="228.6" y="27.94" smashed="yes">
@@ -7558,7 +7558,7 @@ See table for configurations. </text>
 </segment>
 <segment>
 <wire x1="-30.48" y1="30.48" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="CAN_RST" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7581,7 +7581,7 @@ See table for configurations. </text>
 <segment>
 <wire x1="99.06" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="55.88" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="74HC4050" gate="G$1" pin="GND"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7628,7 +7628,7 @@ See table for configurations. </text>
 <label x="199.898" y="89.154" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="VREG1" gate="G$1" pin="GND"/>
+<pinref part="POLULU_D24V10F5" gate="G$1" pin="GND"/>
 <wire x1="302.26" y1="121.92" x2="302.26" y2="109.22" width="0.1524" layer="91"/>
 <label x="302.26" y="109.22" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -7647,9 +7647,9 @@ See table for configurations. </text>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="228.6" y1="30.48" x2="228.6" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="BOOT" gate="G$1" pin="2"/>
+<pinref part="ESP_BOOT" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="33.02" x2="226.06" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="RST" gate="G$1" pin="2"/>
+<pinref part="ESP_RST" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="40.64" x2="228.6" y2="33.02" width="0.1524" layer="91"/>
 <junction x="228.6" y="33.02"/>
@@ -7670,12 +7670,12 @@ See table for configurations. </text>
 <wire x1="208.28" y1="-10.16" x2="215.9" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="GND"/>
 <wire x1="472.44" y1="-25.4" x2="474.98" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="474.98" y1="-25.4" x2="475.234" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="475.234" y1="-25.4" x2="475.234" y2="-28.956" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="EP"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="EP"/>
 <wire x1="472.44" y1="-22.86" x2="474.98" y2="-22.86" width="0.1524" layer="91"/>
 <label x="477.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
 <wire x1="474.98" y1="-22.86" x2="480.06" y2="-22.86" width="0.1524" layer="91"/>
@@ -7732,7 +7732,7 @@ See table for configurations. </text>
 <label x="205.994" y="134.366" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="VREG1" gate="G$1" pin="VOUT"/>
+<pinref part="POLULU_D24V10F5" gate="G$1" pin="VOUT"/>
 <wire x1="307.34" y1="121.92" x2="307.34" y2="109.22" width="0.1524" layer="91"/>
 <label x="307.34" y="109.22" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -7753,7 +7753,7 @@ See table for configurations. </text>
 </segment>
 <segment>
 <wire x1="78.74" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="3A"/>
+<pinref part="74HC4050" gate="G$1" pin="3A"/>
 <label x="71.12" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -7762,7 +7762,7 @@ See table for configurations. </text>
 <label x="247.142" y="119.634" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IO18/GPIO18/VSPICLK/HS1_DATA7"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="IO18/GPIO18/VSPICLK/HS1_DATA7"/>
 <wire x1="472.44" y1="-10.16" x2="477.52" y2="-10.16" width="0.1524" layer="91"/>
 <label x="478.028" y="-11.176" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -7783,7 +7783,7 @@ See table for configurations. </text>
 <label x="253.492" y="117.094" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IO19/GPIO19/VSPIQ/U0CTS/EMAC_TXD0"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="IO19/GPIO19/VSPIQ/U0CTS/EMAC_TXD0"/>
 <wire x1="472.44" y1="-7.62" x2="477.52" y2="-7.62" width="0.1524" layer="91"/>
 <label x="477.52" y="-7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -7796,7 +7796,7 @@ See table for configurations. </text>
 </segment>
 <segment>
 <wire x1="78.74" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="2A"/>
+<pinref part="74HC4050" gate="G$1" pin="2A"/>
 <label x="71.12" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -7805,7 +7805,7 @@ See table for configurations. </text>
 <label x="247.396" y="114.554" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IO23/GPIO23/VSPID/HS1_STROBE"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="IO23/GPIO23/VSPID/HS1_STROBE"/>
 <wire x1="472.44" y1="0" x2="477.52" y2="0" width="0.1524" layer="91"/>
 <label x="477.52" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -7818,7 +7818,7 @@ See table for configurations. </text>
 </segment>
 <segment>
 <wire x1="-20.32" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="CAN_RST" gate="G$1" pin="2"/>
 <label x="-15.24" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -7932,7 +7932,7 @@ See table for configurations. </text>
 <label x="253.238" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IO5/GPIO5/VSPICS0/HS1_DATA6/EMAC_RX_CLK"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="IO5/GPIO5/VSPICS0/HS1_DATA6/EMAC_RX_CLK"/>
 <wire x1="259.08" y1="-10.16" x2="254" y2="-10.16" width="0.1524" layer="91"/>
 <label x="254" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7949,7 +7949,7 @@ See table for configurations. </text>
 <label x="248.92" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IO4/GPIO4/ADC2_CH0/TOUCH0/RTC_GPIO10/HSPIHD/HS2_DATA1/SD_DATA1/EMAC_TX_ER"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="IO4/GPIO4/ADC2_CH0/TOUCH0/RTC_GPIO10/HSPIHD/HS2_DATA1/SD_DATA1/EMAC_TX_ER"/>
 <wire x1="259.08" y1="-7.62" x2="254" y2="-7.62" width="0.1524" layer="91"/>
 <label x="254" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8046,7 +8046,7 @@ See table for configurations. </text>
 <pinref part="SUPPLY2" gate="G$1" pin="12V"/>
 </segment>
 <segment>
-<pinref part="VREG1" gate="G$1" pin="VIN"/>
+<pinref part="POLULU_D24V10F5" gate="G$1" pin="VIN"/>
 <wire x1="297.18" y1="121.92" x2="297.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="297.18" y="109.22" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -8118,7 +8118,7 @@ See table for configurations. </text>
 <segment>
 <wire x1="78.74" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="55.88" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="VCC"/>
+<pinref part="74HC4050" gate="G$1" pin="VCC"/>
 <pinref part="P+11" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -8157,7 +8157,7 @@ See table for configurations. </text>
 <net name="SD_CS" class="0">
 <segment>
 <wire x1="78.74" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="1A"/>
+<pinref part="74HC4050" gate="G$1" pin="1A"/>
 <label x="71.12" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -8197,7 +8197,7 @@ See table for configurations. </text>
 <wire x1="99.06" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="53.34" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="1Y"/>
+<pinref part="74HC4050" gate="G$1" pin="1Y"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -8205,7 +8205,7 @@ See table for configurations. </text>
 <wire x1="99.06" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="50.8" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="2Y"/>
+<pinref part="74HC4050" gate="G$1" pin="2Y"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -8213,12 +8213,12 @@ See table for configurations. </text>
 <wire x1="99.06" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="48.26" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="3Y"/>
+<pinref part="74HC4050" gate="G$1" pin="3Y"/>
 </segment>
 </net>
 <net name="ESP_TX" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="RXD0/GPIO3/U0RXD/CLK_OUT2"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="RXD0/GPIO3/U0RXD/CLK_OUT2"/>
 <wire x1="259.08" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
 <label x="248.92" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8230,7 +8230,7 @@ See table for configurations. </text>
 </net>
 <net name="ESP_RX" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="TXD0/GPIO1/U0TXD/CLK_OUT3/EMAC_RXD2"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="TXD0/GPIO1/U0TXD/CLK_OUT3/EMAC_RXD2"/>
 <wire x1="259.08" y1="22.86" x2="246.38" y2="22.86" width="0.1524" layer="91"/>
 <label x="248.666" y="22.098" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8242,7 +8242,7 @@ See table for configurations. </text>
 </net>
 <net name="ESP_LED" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="IO13/GPIO13/ADC2_CH4/TOUCH4/RTC_GPIO14/MTCK/HSPID/HS2_DATA3/SD_DATA3/EMAC_RX_ER"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="IO13/GPIO13/ADC2_CH4/TOUCH4/RTC_GPIO14/MTCK/HSPID/HS2_DATA3/SD_DATA3/EMAC_RX_ER"/>
 <wire x1="259.08" y1="-15.24" x2="254" y2="-15.24" width="0.1524" layer="91"/>
 <label x="254" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8254,7 +8254,7 @@ See table for configurations. </text>
 </net>
 <net name="ESP_EN" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="EN"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="EN"/>
 <wire x1="259.08" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
 <label x="251.46" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8266,19 +8266,19 @@ See table for configurations. </text>
 </net>
 <net name="ESP_BOOT" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="IO0/GPIO0/ADC2_CH1/TOUCH1/RTC_GPIO11/CLK_OUT1/EMAC_TX_CLK"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="IO0/GPIO0/ADC2_CH1/TOUCH1/RTC_GPIO11/CLK_OUT1/EMAC_TX_CLK"/>
 <wire x1="259.08" y1="-2.54" x2="254" y2="-2.54" width="0.1524" layer="91"/>
 <label x="254" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="BOOT" gate="G$1" pin="1"/>
+<pinref part="ESP_BOOT" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
 <label x="210.82" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESP_ON" class="0">
 <segment>
-<pinref part="RST" gate="G$1" pin="1"/>
+<pinref part="ESP_RST" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="40.64" x2="213.36" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="40.64" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
@@ -8301,7 +8301,7 @@ See table for configurations. </text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="3V3"/>
+<pinref part="ESP32-WROVER" gate="G$1" pin="3V3"/>
 <wire x1="472.44" y1="35.56" x2="477.52" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="3.3_EN" gate="G$1" pin="1"/>
 <wire x1="477.52" y1="35.56" x2="477.52" y2="40.64" width="0.1524" layer="91"/>
