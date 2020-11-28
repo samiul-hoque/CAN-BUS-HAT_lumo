@@ -7106,8 +7106,8 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
 <part name="3.3_EN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" override_package3d_urn="urn:adsk.eagle:package:24994798/2" override_package_urn="urn:adsk.eagle:footprint:37654/1"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="10uF"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7369,9 +7369,9 @@ See table for configurations. </text>
 <instance part="GND16" gate="1" x="152.4" y="33.02" smashed="yes">
 <attribute name="VALUE" x="149.86" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="144.78" y="40.64" smashed="yes">
-<attribute name="NAME" x="145.034" y="42.799" size="1.778" layer="95"/>
-<attribute name="VALUE" x="145.034" y="38.989" size="1.778" layer="96"/>
+<instance part="C9" gate="G$1" x="510.54" y="43.18" smashed="yes">
+<attribute name="NAME" x="510.794" y="45.339" size="1.778" layer="95"/>
+<attribute name="VALUE" x="510.794" y="41.529" size="1.778" layer="96"/>
 </instance>
 <instance part="74HC4050" gate="G$1" x="88.9" y="48.26" smashed="yes">
 <attribute name="NAME" x="81.28" y="58.42" size="1.778" layer="95"/>
@@ -7386,11 +7386,11 @@ See table for configurations. </text>
 <instance part="P+10" gate="G$1" x="152.4" y="48.26" smashed="yes">
 <attribute name="VALUE" x="151.384" y="51.816" size="1.778" layer="96"/>
 </instance>
-<instance part="P+13" gate="G$1" x="144.78" y="48.26" smashed="yes">
-<attribute name="VALUE" x="143.764" y="51.816" size="1.778" layer="96"/>
+<instance part="P+13" gate="G$1" x="510.54" y="50.8" smashed="yes">
+<attribute name="VALUE" x="509.524" y="54.356" size="1.778" layer="96"/>
 </instance>
-<instance part="GND19" gate="1" x="144.78" y="33.02" smashed="yes">
-<attribute name="VALUE" x="142.24" y="30.48" size="1.778" layer="96"/>
+<instance part="GND19" gate="1" x="510.54" y="35.56" smashed="yes">
+<attribute name="VALUE" x="508" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="226.06" y="109.22" smashed="yes">
 <attribute name="NAME" x="213.36" y="137.922" size="1.778" layer="95"/>
@@ -7590,7 +7590,7 @@ See table for configurations. </text>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="35.56" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="38.1" x2="510.54" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
@@ -8127,7 +8127,7 @@ See table for configurations. </text>
 <pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="45.72" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="48.26" x2="510.54" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="G$1" pin="3.3V"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
