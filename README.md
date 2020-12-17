@@ -7,12 +7,12 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQHzEYQIB99MsmRpj2l1UOeYBtqY8iFO
 
 
 ## Board 
-![schematic](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/can%20bus%20hat_bottom.png?raw=true)
+![schematic](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/schematic.png?raw=true)
 ![Board Top](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/can%20bus%20hat_bottom.png?raw=true)
 ![Board Bottom](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/can%20bus%20hat_top.png?raw=true)
 
 
 ## Render
-![render_ui](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/can%20bus%20hat_top.png?raw=true)
+![render_ui](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/render_ui.PNG?raw=true)
 ![render_top](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/can%20bus%20hat_top.png?raw=true)
-![render_side](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/can%20bus%20hat_top.png?raw=true)
+![render_side](https://github.com/samiul-hoque/CAN-BUS-HAT_lumo/blob/main/render_side.PNG?raw=true)
